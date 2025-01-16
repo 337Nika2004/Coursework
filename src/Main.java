@@ -4,8 +4,7 @@
 public class Main {
     private static Employee[] employees;
 
-    //Создать внутри класса Main метод main и поле типа Employee[10],
-    // которое будет выполнять роль "хранилища" для записей о сотрудниках.
+
     public static void main(String[] args) {
         employees = new Employee[10];
         employees[0] = new Employee("Ivanov AA", 1, 70000);
